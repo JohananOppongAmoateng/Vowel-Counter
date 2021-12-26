@@ -11,9 +11,10 @@ function vowelCounter(string) {
         }
     }
     alert(num)
+    input.value = ""
 }
 
-// let vowel = vowelCounter(input.value)
+
 check.addEventListener("click",function () {
     vowelCounter(input.value)
 })
